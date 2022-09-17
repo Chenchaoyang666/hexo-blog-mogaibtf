@@ -1,0 +1,119 @@
+class:
+  class_name: 酷酷のdalao们
+  cdescr: 给dalao递零食✿✿ヽ(°▽°)ノ✿
+  link_list:
+    1:
+      name: JerryC
+      link: https://butterfly.js.org/
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 今日事,今日毕
+      color: "#D2691E"
+      custom: link_custom #动画样式
+      time: 2s
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+    2:
+      name: Lete乐特
+      link: https://butterfly.lete114.top/
+      avatar: https://cdn.jsdelivr.net/gh/lete114/CDN/Lete.png
+      descr: 人生只有一次，大胆的生活
+      color: "#D2691E"
+      custom: link_custom #动画样式
+      time: 2s
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+    3:
+      name: PJT
+      link: http://www.panjiangtao.cn/
+      avatar: http://www.panjiangtao.cn/images/avatar.jpg
+      descr: 同志们好
+      color: "#D2691E"
+      custom: link_custom #动画样式
+      time: 2s
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+    4:
+      name: 小康
+      link: https://www.antmoe.com/
+      avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方！
+      color: "#D2691E"
+      custom: link_custom #动画样式
+      time: 2s
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+    5:
+      name: 超逸の技术博客
+      link: https://yangchaoyi.vip/
+      avatar: https://cdn.jsdelivr.net/gh/Chocolate1999/cdn/img/avatar.png
+      descr: 不是只会写业务代码の前端攻城狮
+      color: "#D2691E"
+      custom: link_custom #动画样式
+      time: 2s
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+
+class2:
+  class_name: 小伙伴们
+  cdescr: 给小伙伴们递茶✿✿ヽ(°▽°)ノ✿
+  link_list:
+    1:
+      name: Youtube
+      link: https://www.youtube.com/
+      avatar: /CDN/other/2.png
+      descr: 视频网站
+    2:
+      name: Weibo
+      link: https://www.weibo.com/
+      avatar: /CDN/other/3.png
+      descr: 中国最大社交分享平台
+    3:
+      name: Twitter
+      link: https://twitter.com/
+      avatar: /CDN/other/4.png
+      descr: 社交分享平台
+      
+class3:
+   class_name: 链接失效
+   cdescr: 怎么Server Down了呢？赶紧回来吧ヽ(。>д<)ｐ
+   link_list:
+    1:
+      name: 未知1
+      link: https://chocolate.blog.csdn.net/
+      avatar: https://cdn.jsdelivr.net/gh/Chocolate1999/cdn/img/avatar1.png
+      descr: test
+
+class4:
+  class_name: 友链样式（可选）
+  cdescr: 小伙伴可以选择或提供自己的友链风格嗷~（未选择就根据您的博客主题配色加边框）
+  link_list:
+    1:
+      name: 程序媛（默认）
+      link: https://chocolate.blog.csdn.net/
+      avatar: https://cdn.jsdelivr.net/gh/Chocolate1999/cdn/img/avatar.png
+      descr: 粉色呼吸灯
+      color: "#ff9999"
+      custom: link_custom #动画样式
+      time: 2s
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+    2:
+      name: 程序员（默认）
+      link: https://chocolate.blog.csdn.net/
+      avatar: https://cdn.jsdelivr.net/gh/Chocolate1999/cdn/img/avatar.png
+      descr: 蓝色呼吸灯
+      color: "#0078e7"
+      custom: link_custom #动画样式
+      time: 2s
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+    3:
+      name: 炫彩样式
+      link: https://chocolate.blog.csdn.net/
+      avatar: https://cdn.jsdelivr.net/gh/Chocolate1999/cdn/img/avatar.png
+      descr: 炫彩呼吸灯
+      color: "#0078e7"
+      custom: link_custom1 #动画样式
+      time: 2s
+      # 鼠标悬停旋转角度
+      rotate: 360deg

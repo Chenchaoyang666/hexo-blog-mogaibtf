@@ -1,0 +1,57 @@
+- var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
+- var pageHighlightShrinkSet = page.highlight_shrink === true || page.highlight_shrink === false ? page.highlight_shrink : theme.highlight_shrink
+- var pageHighlightShrink = theme.highlight_shrink !== 'none' && pageHighlightShrinkSet ? 'code-close' : ''
+
+doctype html
+html(lang=config.language data-theme=theme.display_mode)
+  head
+    include ./head.pug
+  body
+    if theme.preloader
+      !=partial('includes/loading/loading', {}, {cache:theme.fragment_cache})
+
+    if theme.fireworks && theme.fireworks.enable
+      canvas.fireworks
+
+    !=partial('includes/mobile-sidebar/index', {}, {cache:theme.fragment_cache})
+
+    include ./sidebar.pug
+
+    #body-wrap(class=pageHighlightShrink)
+      if theme.background
+        //- - var is_photo = theme.background.startsWith('url') ? 'photo':'color'
+        //- #web_bg(data-type=is_photo)
+        if theme.RandomBackground.enable
+          - var is_photo=theme.RandomBackground.enable ? 'photo':'color'
+          - var bg_list=theme.RandomBackground.imglist.join(',').split(',')
+          - var bg_index=Math.floor(Math.random() * bg_list.length)
+          - var reac=bg_list[bg_index]
+          #web_bg(data-type=is_photo style=`background:url(${reac});background-attachment: local;background-position: center;background-size: cover;background-repeat: no-repeat`)
+        else
+          - var is_photo = theme.background.startsWith('url') ? 'photo':'color'
+          #web_bg(data-type=is_photo)
+
+      include ./header/index.pug
+
+      if (!is_post())
+        main#content-inner.layout_page(class=hideAside)
+          if body
+            div!= body
+          else
+            block content
+            include widget/index.pug
+      else
+        main#content-inner.layout_post
+          if body
+            div!= body
+          else
+            block content
+      
+      - var footer_bg = theme.footer_bg == false ? '' : bg_img
+      - var is_bg = theme.footer_bg == false ? 'color' : 'photo'
+      footer#footer(style=footer_bg data-type=is_bg)
+        !=partial('includes/footer', {}, {cache:theme.fragment_cache})
+
+    include ./rightside.pug
+    !=partial('includes/search/index', {}, {cache:theme.fragment_cache})
+    include ./additional-js.pug
