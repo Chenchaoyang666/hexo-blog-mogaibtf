@@ -8,8 +8,9 @@ categories:
   - 其他
 abbrlink: 65246
 ---
-
 辅助函数 paginator 能够帮助我们插入分页链接，具体参数查看[https://hexo.io/docs/helpers.html#paginator](https://hexo.io/docs/helpers.html#paginator)
+
+hexo博客搭建：[https://zhuanlan.zhihu.com/p/26625249/](https://zhuanlan.zhihu.com/p/26625249/)
 
 <!-- more -->
 
