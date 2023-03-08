@@ -4,6 +4,10 @@ top_img: /CDN/wallpaper/14.jpg
 cover: /CDN/wallpaper/14.jpg
 tags:
   - Css
+  - JavaScrip
+  - Html
+  - 面试
+  - Http
 categories:
   - 前端
 abbrlink: 42600
