@@ -1,7 +1,7 @@
 ---
 title: web学习路线汇总篇
-top_img: /CDN/wallpaper/14.jpg
-cover: /CDN/wallpaper/14.jpg
+top_img: /CDN/wallpaper/cover_12.jpg
+cover: /CDN/wallpaper/cover_12.jpg
 tags:
   - Css
   - JavaScrip
@@ -1371,7 +1371,9 @@ HTTP/2 有哪些改进？（很大可能问原理）
 
 ## 六、vue相关
 
-待完善
+[高频前端面试题汇总之Vue篇（上）](https://juejin.cn/post/6919373017218809864)
+
+[高频前端面试题汇总之Vue篇（下）](https://juejin.cn/post/6964779204462247950/)
 
 ## 七、webpack
 
