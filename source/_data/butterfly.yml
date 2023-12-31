@@ -12,8 +12,8 @@ menu:
   - 分类 || /categories/ || fa fa-folder-open
   媒体||fas fa-list:
     - 番剧 || /bangumis/ || fab fa-youtube
-    - 电影 || /movies/ || fa fa-film
-    - 书单 || /books/ || fas fa-book
+    # - 电影 || /movies/ || fa fa-film
+    # - 书单 || /books/ || fas fa-book
     - 音乐 || /music/ || fa fa-music
   # 聚宝盒: /box/ ||fab fa-xbox
   # 游戏||fas fa-gamepad:
@@ -649,7 +649,7 @@ aside:
     description:
   card_announcement:
     enable: true
-    content: 因为本人比较健忘，所以怎么会有更新呢！ <br> Music游戏：<a href="http://chenchaoyang666.gitee.io/mikutap">点此进入</a><img src="https://cdn.jsdelivr.net/gh/lete114/CDN/Use/my_bg.gif">
+    content: 因为本人比较健忘，所以怎么会有更新呢！ <br> Music游戏：<a href="http://chenchaoyang666.gitee.io/mikutap">点此进入</a>
   card_pixiv:
     enable: true
   card_calendar:

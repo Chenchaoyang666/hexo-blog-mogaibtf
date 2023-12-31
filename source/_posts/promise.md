@@ -1,7 +1,7 @@
 ---
 title: Promise实现原理
-top_img: '/CDN/post/9.jpg'
-cover: '/CDN/post/9.jpg'
+top_img: '/CDN/wallpaper/16.jpg'
+cover: '/CDN/wallpaper/16.jpg'
 highlight_shrink: true
 tags:
   - JavaScrip
@@ -9,7 +9,6 @@ categories:
   - 前端
 abbrlink: 61384
 ---
-
 在传统的异步编程中，如果异步之间存在依赖关系，我们就需要通过层层嵌套回调来满足这种依赖，如果嵌套层数过多，可读性和可维护性都变得很差，产生所谓“回调地狱”，而 Promise 将回调嵌套改为链式调用，增加可读性和可维护性。
 
 ## Promise 的调用流程

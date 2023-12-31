@@ -1,7 +1,7 @@
 ---
 title: css盒模型及布局
-top_img: "https://s3.ax1x.com/2020/12/04/Dq2ucR.jpg"
-cover: "https://s3.ax1x.com/2020/12/04/Dq2ucR.jpg"
+top_img: "/CDN/wallpaper/3.png"
+cover: "/CDN/wallpaper/3.png"
 highlight_shrink: true
 tags:
   - Css
@@ -9,7 +9,6 @@ categories:
   - 前端
 abbrlink: 17705
 ---
-
 ## 普通盒模型
 
 在 CSS 中盒模型被分为两种，第一种是 W3C 的标准模型，第二种是 IE 怪异盒模型。不同之处在于后者的宽高定义的是可见元素框的尺寸，而不是元素框的内容区尺寸。目前对于浏览器大多数元素都是基于 W3C 标准的盒模型，但对于表单`form`中的部分元素还是基于 IE 的怪异盒模型，如`input`里的`radio`、`checkbox`、`button`等元素，如果给其设置`border`和`padding`它们也只会往元素盒内延伸
@@ -249,7 +248,6 @@ width | min-width | max-width
 
 - 渐进增强(progressive enhancement)
   是指基本需求得到满足、实现，再根据不同浏览器及不同分辨率设备的特点，利用高级浏览器下的新特性提供更好的体验。比如，圆角、阴影、动画等
-
 - 优雅降级(graceful degradation)
   则正好相反，现有功能已经开发完备，但需要向下兼容版本和不支持该功能的浏览器。虽然兼容性方案的体验不如常规方案，但保证了功能可用性
 

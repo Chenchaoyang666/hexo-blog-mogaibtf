@@ -1,19 +1,19 @@
 ---
 title: table前端组件封装
-top_img: '/CDN/wallpaper/cover_19.jpg'
-cover: '/CDN/wallpaper/cover_19.jpg'
+top_img: '/CDN/wallpaper/15.png'
+cover: '/CDN/wallpaper/15.png'
 tags:
   - Css
 categories:
   - 前端
 abbrlink: 739
 ---
-
 ## el-table组件封装
 
 首先创建一个vue文件,目前封装的table可支持前端自动分页、工具插槽、过滤、排序等功能
 
 ### html部分
+
 ```html
 <template>
   <div style="border: 1px solid #e0e0e0">
@@ -95,7 +95,9 @@ abbrlink: 739
   </div>
 </template>
 ```
+
 ### js部分
+
 ```js
 <script>
 import utils from '@/utils'; //通用函数放入utils文件中
@@ -408,7 +410,9 @@ export default {
 };
 </script>
 ```
+
 ### 样式部分
+
 ```css
 <style lang="scss">
 .table-tool {
@@ -431,6 +435,7 @@ export default {
 ```
 
 ### 通用函数封装
+
 ```js
 /**
  * 根据数组的某项进行排序
@@ -488,4 +493,5 @@ Broswer.setLocalStore = function (key, val) {
 ```
 
 ## vxe-table 组件
+
 - [https://vxetable.cn/#/table/start/install](https://vxetable.cn/#/table/start/install)
